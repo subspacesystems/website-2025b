@@ -29,7 +29,7 @@ From DevOps infrastructure to custom radio protocols and visualizations, we help
 
 We combine hands-on engineering with strategic thinking. With over 20 years of experience across industries, we deliver systems that are not only technically sound—but actually solve your problem.
 
-- Practical systems expertise  
+- Practical software and systems expertise  
 - Proven cloud and embedded experience  
 - Fast-moving and low overhead  
 - Based in the Pacific Northwest, available worldwide
@@ -40,7 +40,7 @@ We combine hands-on engineering with strategic thinking. With over 20 years of e
 
 We’re currently accepting new clients for architecture consulting, rapid prototyping, and system integration projects.
 
-📫 **Email**: [tyrel@proton.me](mailto:tyrel@proton.me)  
+📫 **Email**: [inquiries@subspacesystems.com](mailto:inquiries@subspacesystems.com)  
 🌐 **GitHub**: [github.com/subspace-systems](https://github.com/subspace-systems)  
 📍 Based in Stanwood, WA
 
