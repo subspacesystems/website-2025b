@@ -41,7 +41,7 @@ We combine hands-on engineering with strategic thinking. With over 20 years of e
 We’re currently accepting new clients for architecture consulting, rapid prototyping, and system integration projects.
 
 📫 **Email**: [inquiries@subspacesystems.com](mailto:inquiries@subspacesystems.com)  
-🌐 **GitHub**: [github.com/subspace-systems](https://github.com/subspace-systems)  
+🌐 **GitHub**: [github.com/subspacesystems](https://github.com/subspacesystems)  
 📍 Based in Stanwood, WA
 
 ---
