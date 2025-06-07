@@ -88,5 +88,27 @@ h1, h2 {
   background-image: url(/assets/images/heading-graphic.png);
   background-repeat: no-repeat;
   background-size: contain;
-  padding-left: 150px;
+}
+
+@media screen and (max-width: 1000px) {
+  h1 {
+    padding-top: 20px;
+    background-size: 100% 100%;
+  }
+
+  h2 {
+    padding-top: 20px;
+    background-size: 100% 100%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+
+  h1 {
+    padding-left: 150px;
+  }
+
+  h2 {
+    padding-left: 110px;
+  }
 }
