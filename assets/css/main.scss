@@ -83,3 +83,10 @@ h1, h2 {
 h3 {
     color: $color-secondary;
 }
+
+h1 {
+  background-image: url(/assets/images/heading-graphic.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-left: 50px;
+}
