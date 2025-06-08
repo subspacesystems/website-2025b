@@ -23,7 +23,7 @@ a {
 header {
   background-color: $color-primary;
   color: $color-text;
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
   text-align: center;
   border-bottom: 2px solid $color-secondary;
 }
@@ -47,6 +47,11 @@ main {
 .navbar {
   background-color: $color-primary;
   position: relative;
+  border-bottom: 1px solid $color-secondary;
+}
+
+.navbar .container {
+  padding: 0 2rem;
 }
 
 .nav-links {
@@ -55,11 +60,13 @@ main {
   justify-content: center;
   gap: 2rem;
   padding: 1rem;
+  margin: 0;
 }
 
 .nav-links a {
   font-weight: 700;
   font-family: 'Orbitron', sans-serif;
+  font-size: 1.5rem;
 }
 
 .nav-toggle {
