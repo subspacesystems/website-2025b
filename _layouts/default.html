@@ -21,6 +21,18 @@
     </div>
   </header>
 
+  <menu>
+    <div class="container">
+      <nav>
+        <ul>
+          {% for link in site.data.navigation %}
+          <li><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>>
+          {% endfor %}
+        </ul>
+      </nav>
+    </div>
+  </menu>
+
   <main class="container">
     {{ content }}
   </main>

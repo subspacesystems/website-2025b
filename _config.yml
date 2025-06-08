@@ -1,6 +1,17 @@
 theme: minima
 title: Subspace Systems
 description: Subspace Systems is a consulting firm specializing in software and systems architecture, particularly in aerospace and embedded systems.
+url: https://subspacesystems.com
+baseurl: ""
+author:
+  name: Subspace Systems
+  email: webmaster@subspacesystems.com
 
 sass:
   sass_dir: _sass
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+

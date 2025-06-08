@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Subspace Systems
+title: Home
 ---
 
 # Welcome to Subspace Systems
