@@ -212,6 +212,7 @@ form {
   flex-wrap: wrap; /* Allows items to wrap to the next line on smaller screens */
   gap: 1rem; /* Spacing between form groups */
   justify-content: space-between; /* Distributes items evenly */
+  flex-direction: column; /* Stack form groups vertically */
 }
 
 /* Individual form group (label + input) */
