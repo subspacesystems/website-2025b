@@ -23,15 +23,15 @@ title: Contact
   <label>
     Your name:
     <input type="text" name="name" required>
-  </label>
+  </label><br>
   <label>
     Your email address:
     <input type="email" name="email" required>
-  </label>
+  </label><br>
   <label>
     Your message:
-    <textarea name="message"></textarea>
-  </label>
+    <textarea rows="10" cols="40" name="message"></textarea>
+  </label><br>
   <input name="subject" type="hidden" value="New submission from {{ name }}">
   <button class="g-recaptcha" data-sitekey="6LcQBVorAAAAAFhxZhJgk2bkkQbOb8nsOaI1_xVy"
             data-callback='onSubmit' data-action='submit'>Send</button>
