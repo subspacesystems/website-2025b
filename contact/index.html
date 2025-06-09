@@ -40,10 +40,12 @@ title: Contact
       <input type="tel" name="phone" id="phone" autocomplete="work tel" placeholder="+1 123-345-7890">
     </div>
   </fieldset>
-  <div class="form-group">
-    <label for="message">Message:</label>
-    <textarea rows="10" name="message" id="message"></textarea>
-  </label>
+  <fieldset>
+    <legend>message</legend>
+    <div class="form-group">
+      <textarea rows="10" name="message" id="message"></textarea>
+    </div>
+  </fieldset>
   <button type="submit" class="g-recaptcha" data-sitekey="6LcQBVorAAAAAFhxZhJgk2bkkQbOb8nsOaI1_xVy"
             data-callback='onSubmit' data-action='submit'>Send</button>
 </form>
