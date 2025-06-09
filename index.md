@@ -7,6 +7,8 @@ title: Home
 
 **Subspace Systems** is a technical consulting and software architecture firm specializing in the design and integration of complex, high-performance systems. With deep expertise spanning safety-critical aerospace, embedded platforms, cloud infrastructure, and custom simulation environments, we bring clarity and execution to high-stakes engineering challenges.
 
+To learn more about our background and skills, visit the [About]({{ '/about' | relative_url }}) page. Our available services are detailed on the [Services]({{ '/services' | relative_url }}) page.
+
 ## What We Do
 
 ### Systems Architecture & Integration
@@ -21,6 +23,7 @@ Whether you're pushing petabytes or optimizing real-time processing pipelines, w
 ### Custom Tools & Technical Leadership
 From DevOps infrastructure to custom radio protocols and visualizations, we help teams move faster and with confidence. We also provide fractional architecture and team leadership services.
 
+More information about our services is available on the [Services]({{ '/services' | relative_url }}) page.
 
 ## Why Subspace?
 
@@ -35,5 +38,4 @@ We combine hands-on engineering with strategic thinking. With over 20 years of e
 
 We’re currently accepting new clients for architecture consulting, rapid prototyping, and system integration projects.
 
-📫 **Email**: [inquiries@subspacesystems.com](mailto:inquiries@subspacesystems.com)  
-📍 Based in Stanwood, WA
+Visit our [Contact]({{ '/contact' | relative_url }}) page to send a message. Or you can call or text [+1 360-386-CODE](tel:+13603862633) (+1 360-386-2633).
