@@ -203,3 +203,41 @@ h1:not(.nographic), h2:not(.nographic) {
     padding-left: 110px;
   }
 }
+
+/* Container for the form groups */
+form {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap to the next line on smaller screens */
+  gap: 1rem; /* Spacing between form groups */
+  justify-content: space-between; /* Distributes items evenly */
+}
+
+/* Individual form group (label + input) */
+.form-group {
+  display: flex;
+  flex-direction: column; /* Stack label and input vertically within the group */
+  flex: 1; /* Allows form groups to grow and shrink */
+  min-width: 200px; /* Minimum width before wrapping */
+}
+
+.form-group label {
+  margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%; /* Make inputs fill their container */
+  padding: 0.5rem;
+  border: 1px solid #6c5ce7;
+  border-radius: 4px;
+  font-family: 'Inter';
+  font-size: 1.2rem;
+  color: $color-primary;
+  background: $color-background;
+}
+
+/* For full-width elements like textarea or submit button */
+.form-group:last-of-type, /* For message textarea */
+button[type="submit"] {
+  flex-basis: 100%; /* Makes them take full width */
+}
