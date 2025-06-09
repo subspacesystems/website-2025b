@@ -149,7 +149,9 @@ button {
   color: $color-text;
   border: none;
   padding: 0.5rem 1rem;
-  border-radius: 4px;
+  border-radius: 8px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
 
   &:hover {
     background-color: $color-accent-1;
@@ -232,12 +234,24 @@ form {
   border-radius: 4px;
   font-family: 'Inter';
   font-size: 1.2rem;
-  color: $color-primary;
+  color: $color-text;
   background: $color-background;
+  margin-bottom: 0.5rem;
 }
 
-/* For full-width elements like textarea or submit button */
-.form-group:last-of-type, /* For message textarea */
-button[type="submit"] {
+.form-group:last-of-type /* For message textarea */
+{
   flex-basis: 100%; /* Makes them take full width */
+}
+
+legend {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
+  color: $color-secondary;
+}
+
+fieldset {
+  border: 1px solid $color-accent-2;
+  padding: 2rem 3rem 2rem 2rem;
+  background: $color-primary
 }
