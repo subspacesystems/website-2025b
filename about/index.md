@@ -5,7 +5,7 @@ title: About
 
 # About Subspace Systems
 
-## Pioneering Software & Systems Architecture for Tomorrow's Challenges
+## Pioneering Software & Systems Architecture for Tomorrow's Challenges {: .nographic}
 
 At Subspace Systems, we specialize in solving the most complex challenges in software and systems architecture. Founded by Tyrel Haveman, a seasoned Software & Systems Architect with over two decades of experience, Subspace Systems brings unparalleled expertise to critical projects across diverse industries.
 
