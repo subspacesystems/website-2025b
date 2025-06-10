@@ -4,6 +4,7 @@ description: Subspace Systems is a consulting firm specializing in software and 
 url: https://subspacesystems.com
 baseurl: ""
 author:
+  type: Organization
   name: Subspace Systems
   email: webmaster@subspacesystems.com
 
