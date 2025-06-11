@@ -26,6 +26,7 @@ We collect information that you voluntarily provide to us when you:
 * Communicate with us via email, phone, or other means.
 * Engage us for consulting or contracting services. This information may include:
 * * Your name, email address, phone number, and company name.
+* * Your mobile number: If you choose to provide it for SMS/MMS communications, including consent for receiving text messages.
 * * Details about your project needs or inquiries.
 * * Any other information you choose to provide.
 
@@ -53,6 +54,7 @@ We use the information we collect for various purposes, including:
 * To analyze Site usage and trends.
 * To comply with legal obligations and protect our rights.
 * For marketing and promotional purposes, if you have opted in to receive such communications.
+* To send you SMS/MMS communications, alerts, or updates for which you have expressly opted in.
 
 ## 3. How We Share Your Information
 
