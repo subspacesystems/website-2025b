@@ -45,8 +45,8 @@ Both Subspace Systems and the Client agree to keep confidential all non-public i
 By providing your mobile number to Subspace Systems, you agree to receive text messages (SMS and MMS) from us regarding our services, updates, inquiries, or other relevant communications. Message and data rates may apply.
 
 * **Opt-In:** You will receive a clear consent request (e.g., via a web form, initial text message, or explicit verbal agreement) before receiving any text messages from us. By opting in, you confirm that you are the account holder for the mobile number provided or have permission from the account holder to opt in.
-* **Opt-Out:** You may opt out of receiving SMS/MMS communications at any time by replying **STOP** to any message you receive from our designated number. You will receive one final message confirming your opt-out. For assistance, you can reply **HELP** to any message.
-* **Consistency:** All opt-in and opt-out requests for SMS/MMS communications will be processed and confirmed solely through our designated number, ensuring a consistent and compliant communication channel. Opt-out requests via other means (e.g., short codes, email, or other phone numbers) are not valid for SMS/MMS opt-out.
+* **Opt-Out:** You may opt out of receiving SMS/MMS communications at any time by replying **STOP** to any message you receive from our designated number (+1 360-386-2633). You will receive one final message confirming your opt-out. For assistance, you can reply **HELP** to any message.
+* **Consistency:** All opt-in and opt-out requests for SMS/MMS communications will be processed and confirmed solely through our designated number (+1 360-386-2633), ensuring a consistent and compliant communication channel. Opt-out requests via other means (e.g., short codes, email, or other phone numbers) are not valid for SMS/MMS opt-out.
 * **Message Frequency:** Message frequency will vary depending on your interactions with us.
 
 ## 7. Limitation of Liability

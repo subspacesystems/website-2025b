@@ -3,9 +3,6 @@ layout: default
 title: Privacy Policy
 ---
 
-No mobile information will be shared with third parties or affiliates for marketing or promotional purposes.
-
-
 # Privacy Policy for Subspace Systems
 
 **Effective Date:** June 10, 2025
@@ -58,7 +55,8 @@ We use the information we collect for various purposes, including:
 
 ## 3. How We Share Your Information
 
-We do not sell your personal information. We may share your information in the following circumstances:
+We do not sell your personal information. Specifically, no mobile phone information will be shared with third parties or affiliates for marketing or promotional purposes.
+We may share your information in the following circumstances:
 
 * **With Your Consent:** We may share your information when you give us explicit permission to do so.
 * **With Service Providers:** We may share your information with third-party vendors, consultants, and other service providers who perform services on our behalf (e.g., website hosting, analytics, email delivery, CRM software). These providers are obligated to protect your information and use it only for the purposes for which it was provided.
