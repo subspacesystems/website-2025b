@@ -47,6 +47,13 @@
 
   <footer>
     <div class="container">
+      <ul class="footer-links">
+        {% for link in site.data.navigation %}
+        <li><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
+        {% endfor %}
+        <li><a href="{{ '/legal/privacy/' | relative_url }}">Privacy Policy</a></li>
+        <li><a href="{{ '/legal/terms/' | relative_url }}">Terms & Conditions</a></li>
+      </ul>
       <p>&copy; {{ site.time | date: '%Y' }} Subspace Systems LLC — All rights reserved.</p>
     </div>
   </footer>

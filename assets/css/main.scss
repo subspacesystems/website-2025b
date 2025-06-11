@@ -259,3 +259,12 @@ fieldset {
   background: $color-primary;
   border-radius: 8px;
 }
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+  margin: 0;
+}
