@@ -22,10 +22,10 @@ We collect information that you voluntarily provide to us when you:
 * Contact us through our website forms (e.g., "Contact Us" or inquiry forms).
 * Communicate with us via email, phone, or other means.
 * Engage us for consulting or contracting services. This information may include:
-* * Your name, email address, phone number, and company name.
-* * Your mobile number: If you choose to provide it for SMS/MMS communications, including consent for receiving text messages.
-* * Details about your project needs or inquiries.
-* * Any other information you choose to provide.
+    * Your name, email address, phone number, and company name.
+    * Your mobile number: If you choose to provide it for SMS/MMS communications, including consent for receiving text messages.
+    * Details about your project needs or inquiries.
+    * Any other information you choose to provide.
 
 ### b. Information Collected Automatically:
 
