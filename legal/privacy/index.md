@@ -64,6 +64,10 @@ We may share your information in the following circumstances:
 * **To Protect Our Rights:** We may disclose your information if we believe it is necessary to protect our rights, property, or safety, or the rights, property, or safety of others.
 * **Business Transfers:** In the event of a merger, acquisition, or sale of all or a portion of our assets, your information may be transferred to the acquiring entity.
 
+We will not share your opt-in to an SMS campaign with any third party for purposes unrelated to providing you with the services of that campaign. We may share your Personal Data, including your SMS opt-in or consent status, with third parties that help us provide our messaging services, including but not limited to platform providers, phone companies, and any other vendors who assist us in the delivery of text messages.
+
+All the above categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties.
+
 ## 4. Data Security
 
 We implement reasonable security measures to protect the information we collect from unauthorized access, use, alteration, and disclosure. However, no method of transmission over the internet or electronic storage is 100% secure, and we cannot guarantee absolute security.
