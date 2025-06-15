@@ -263,6 +263,7 @@ fieldset {
 .footer-links {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
   padding: 1rem;
