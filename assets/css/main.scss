@@ -273,13 +273,14 @@ fieldset {
 input[type="checkbox"] {
   appearance: none;
   -webkit-appearance: none;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   font-size: 2rem;
   padding: 0.1rem;
-  border: 0.25rem solid $color-accent-1;
-  border-radius: 0.5rem;
+  border: 1px solid $color-accent-1;
+  border-radius: 4px;
+  margin: 0 0.2rem 0 0; 
 }
 
 input[type="checkbox"]::before {
