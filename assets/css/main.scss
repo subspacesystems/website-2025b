@@ -270,7 +270,7 @@ fieldset {
   margin: 0;
 }
 
-input[type="checkbox"] {
+input[type="checkbox"]:not(.nav-toggle) {
   appearance: none;
   -webkit-appearance: none;
   display: inline-flex;
@@ -283,7 +283,7 @@ input[type="checkbox"] {
   margin: 0 0.2rem 0 0; 
 }
 
-input[type="checkbox"]::before {
+input[type="checkbox"]:not(.nav-toggle)::before {
   content: "";
   width: 1.4rem;
   height: 1.4rem;
@@ -292,6 +292,6 @@ input[type="checkbox"]::before {
   background-color: $color-text;
 }
 
-input[type="checkbox"]:checked::before {
+input[type="checkbox"]:not(.nav-toggle):checked::before {
   transform: scale(1);
 }
