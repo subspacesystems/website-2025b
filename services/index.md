@@ -38,6 +38,4 @@ We help organizations solve their most challenging technical problems, offering 
 * **C++, C, Java, Kotlin, Python, C#:** Full-stack development capabilities across a wide array of languages and frameworks, adaptable to diverse project requirements.
 * **Battery Simulation & Modeling:** Developing high-fidelity simulation software for complex systems like aircraft batteries, including detailed electrical and thermal modeling.
 
-At Subspace Systems, we don't just write code; we architect solutions that empower your business to reach new frontiers. Contact us today to discuss how our expertise can drive your next critical project.
-
-[Contact]({{ '/contact' | relative_url }}) us today to start discussing your project!
+At Subspace Systems, we don't just write code; we architect solutions that empower your business to reach new frontiers. [Contact]({{ '/contact' | relative_url }}) us today to discuss how our expertise can drive your next critical project.

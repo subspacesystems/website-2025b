@@ -37,4 +37,4 @@ We combine hands-on engineering with strategic thinking. With over 20 years of e
 
 We’re currently accepting new clients for architecture consulting, rapid prototyping, and system integration projects.
 
-Visit our [Contact]({{ '/contact' | relative_url }}) page to send a message. Or you can call or text [+1 360-386-CODE](tel:+13603862633) (+1 360-386-2633).
+Visit our [Contact]({{ '/contact' | relative_url }}) page to send a message. Or you can call us at [+1 360-386-CODE](tel:+13603862633) (+1 360-386-2633).
