@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <link rel="icon" type="image/png" href="{{ '/assets/favicon-96x96.png' | relative_url }}" sizes="96x96" />
   <link rel="icon" type="image/svg+xml" href="{{ '/assets/favicon.svg' | relative_url }}" />
@@ -20,15 +21,11 @@
   {% seo %}
 </head>
 <body>
-  <header>
-    <div class="container">
-      <img src="{{ '/assets/images/logo.svg' | relative_url }}" alt="Subspace Systems logo showing a network of nodes connected in the shape of an airplane" class="logo" />
-      <p>Your partner in complex systems & software architecture</p>
-    </div>
-  </header>
-
   <nav class="navbar">
     <div class="container">
+      <a href="{{ '/' | relative_url }}" class="logo-link">
+        <img src="{{ '/assets/images/logo-wide-light.svg' | relative_url }}" alt="Subspace Systems logo" class="logo" />
+      </a>
       <input type="checkbox" id="nav-toggle" class="nav-toggle">
       <label for="nav-toggle" class="nav-toggle-label">
         <span></span>
@@ -41,12 +38,24 @@
     </div>
   </nav>
 
-  <main class="container">
+{% if page.is_front_page %}
+  <header>
+    <div class="container">
+      <img src="{{ '/assets/images/logo.svg' | relative_url }}" alt="Subspace Systems logo showing a network of nodes connected in the shape of an airplane" class="logo" />
+      <p>Your partner in complex systems & software architecture</p>
+    </div>
+  </header>
+{% endif %}
+
+  <main>
+    <div class="container">
     {{ content }}
+    </div>
   </main>
 
   <footer>
     <div class="container">
+      <a href="{{ '/' | relative_url }}"><img src="{{ '/assets/images/logo-wide-dark.svg' | relative_url }}" alt="Subspace Systems logo" id="footer-logo" /></a>
       <ul class="footer-links">
         {% for link in site.data.navigation %}
         <li><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
