@@ -1,5 +1,5 @@
 {
-  "name": "Subspace Systems",
+  "name": "Subspace",
   "short_name": "Subspace",
   "icons": [
     {
@@ -15,7 +15,7 @@
       "purpose": "maskable"
     }
   ],
-  "theme_color": "#ffffff",
-  "background_color": "#0A1A2F",
+  "theme_color": "#8e83fc",
+  "background_color": "#091166",
   "display": "standalone"
 }
