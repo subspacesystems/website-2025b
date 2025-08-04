@@ -386,6 +386,139 @@ input[type="checkbox"]:not(.nav-toggle):checked::before {
   font-weight: 500;
 }
 
+#part-4 {
+  background-image: url(/assets/images/part-4.png);
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#part-4 div {
+  padding-bottom: 1rem;
+}
+
+#part-4 .cards {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+#part-4 .cards .card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: rgba($color-accent-1, 0.2);
+  color: $color-primary;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.2rem;
+  padding: 1rem;
+  font-weight: 500;
+  color: $color-text;
+  justify-content: space-around;
+}
+
+#part-4 .cards .card.right-curve {
+  border-top-right-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+  padding-right: 2rem;
+}
+
+#part-4 .cards .card.left-curve {
+  border-top-left-radius: 3rem;
+  border-bottom-left-radius: 3rem;
+  padding-left: 2rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  gap: 1rem;
+}
+
+#part-5 {
+  background-color: $color-background;
+  padding: 6rem;
+  display: flex;
+  flex-direction: row;
+}
+
+#part-5 .services-left {
+  flex: 1;
+  padding-right: 2rem;
+}
+
+#part-5 .services-right {
+  flex: 1;
+  padding-left: 2rem;
+}
+
+#part-5 .services-left ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#part-5 .services-left a {
+  text-decoration: none;
+  color: $color-text;
+  display: block;
+  position: relative;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  padding-right: 2rem;
+}
+
+#part-5 .services-left a::after {
+  content: '+';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: bold;
+}
+
+#part-5 .services-left a.active {
+  color: $color-secondary;
+}
+
+#part-5 .services-left a.active::after {
+  content: '-'
+}
+
+#part-5 .service-content {
+  display: none;
+}
+
+#part-5 .service-content.active {
+  display: block;
+}
+
+#part-5 .service-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid $color-text;
+  padding-bottom: 1rem;
+}
+
 #bottom-blurb {
   background-color: $color-primary;
   background-image: url('/assets/images/bottom-blurb.png');

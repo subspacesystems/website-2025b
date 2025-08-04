@@ -1,0 +1,147 @@
+---
+layout: default
+title: Services
+---
+
+<div id="part-4" class="part">
+
+    <div class="left-part">
+
+        <h1>Our Services</h1>
+
+        <p>At Subspace Systems, we leverage over two decades of deep technical expertise to provide specialized consulting and contracting services that drive innovation, optimize performance, and ensure the resilience of complex systems. Our founder, Tyrel Haveman, personally brings a unique blend of low-level mastery, high-performance architecture, and safety-critical industry experience to every client engagement.</p>
+
+        <p>We help organizations solve their most challenging technical problems, offering services across the full spectrum of software and systems development:</p>
+
+    </div>
+
+    <div class="cards">
+        <div class="column">
+            <div class="card left-curve">Software & Systems Architecture Consulting</div>
+            <div class="card left-curve">High-Performance Data Systems & Cloud Optimization</div>
+        </div>
+        <div class="column">
+            <div class="column card right-curve">Legacy System Modernization & Refactoring</div>
+        </div>
+        <div class="column">
+            <div class="column card right-curve">Aerospace & Safety-Critical Software</div>
+            <div class="column card left-curve">Specialized Software Development</div>
+        </div>
+        <div class="column">
+            <div class="column card right-curve">Embedded Systems & Low-Level Development</div>
+        </div>
+    </div>
+</div>
+
+<div id="part-5" class="part">
+    <div class="services-left">
+        <ul>
+            <li><a href="#architecture-content" class="tab-link">Software & Systems Architecture Consulting</a></li>
+            <li><a href="#data-content" class="tab-link">High-Performance Data Systems & Cloud Optimization</a></li>
+            <li><a href="#legacy-content" class="tab-link">Legacy System Modernization & Refactoring</a></li>
+            <li><a href="#aerospace-content" class="tab-link">Aerospace & Safety-Critical Software</a></li>
+            <li><a href="#embedded-content" class="tab-link">Embedded Systems & Low-Level Development</a></li>
+            <li><a href="#specialized-content" class="tab-link">Specialized Software Development</a></li>
+        </ul>
+    </div>
+    <div class="services-right">
+        <div id="architecture-content" class="service-content tab-content">
+            <h2>Strategic System Design</h2>
+            <p>Architecting new, complex systems from concept to implementation, ensuring scalability, reliability, and maintainability.</p>
+            <h2>Architectural Review & Optimization</h2>
+            <p>Assessing existing system architectures, identifying bottlenecks, security vulnerabilities, and areas for improvement, then providing actionable recommendations.</p>
+            <h2>Technical Leadership & Guidance</h2>
+            <p>Providing expert guidance to engineering teams, overseeing SDLC processes, and ensuring best practices in software development and quality.</p>
+        </div>
+        <div id="data-content" class="service-content tab-content">
+            <h2>Scalable Data Solutions</h2>
+            <p>Designing and implementing robust data models and systems capable of handling massive ingestion rates and petabytes of data, ensuring rapid data availability and analysis.</p>
+            <h2>Database Performance Tuning</h2>
+            <p>Optimizing PostgreSQL, TimescaleDB, and other database systems for peak performance in high-volume environments.</p>
+            <h2>Cloud HPC Automation (AWS)</h2>
+            <p>Building and refining cloud infrastructure for high-performance computing workloads, focusing on efficiency, cost optimization, and automated deployments (e.g., CloudFormation, EC2, S3).</p>
+        </div>
+        <div id="legacy-content" class="service-content tab-content">
+            <h2>Codebase Transformation</h2>
+            <p>Strategically modernizing outdated codebases (e.g., Java 1.4 to Java 8, C++ migrations) to improve performance, maintainability, and security.</p>
+            <h2>Development Pipeline Optimization</h2>
+            <p>Overhauling and implementing modern DevOps infrastructure (e.g., migrating from Jenkins/Perforce to GitLab CI) to significantly reduce build times and enhance developer efficiency.</p>
+            <h2>Security & Threat Analysis</h2>
+            <p>Conducting rigorous security threat analysis for entire products and features, implementing robust security measures (Crypto API, OpenSSL, SSH, SFTP), and addressing compliance (HIPAA).</p>
+        </div>
+        <div id="embedded-content" class="service-content tab-content">
+            <h2>Custom Embedded Software</h2>
+            <p>Developing tailored software for embedded devices, including firmware, device drivers, and real-time operating system components.</p>
+            <h2>Operating System Development</h2>
+            <p>Deep expertise in bootloaders, kernels, filesystems, and memory managers for x86, AMD64, and ARM architectures.</p>
+            <h2>Sensor Integration & Data Acquisition</h2>
+            <p>Designing and implementing robust systems for collecting and processing data from a multitude of sensors in challenging environments (e.g., high-speed telemetry, power management for off-grid systems).</p>
+        </div>
+        <div id="aerospace-content" class="service-content tab-content">
+            <h2>Aviation Systems Software</h2>
+            <p>Specialization in instrumentation, telemetry, and control systems for electric aircraft, including high-speed radio protocols and data handling from thousands of sensors.</p>
+            <h2>Compliance & Reliability</h2>
+            <p>Leveraging introductory exposure to aerospace standards (DO-178C, ARP4754B) to ensure the development of highly reliable and verifiable software for critical applications.</p>
+            <h2>Complex System Integration</h2>
+            <p>Expertise in integrating diverse hardware and software components into cohesive, functioning systems for aerospace and other safety-critical domains.</p>
+        </div>
+        <div id="specialized-content" class="service-content tab-content">
+            <h2>C++, C, Java, Kotlin, Python, C#</h2>
+            <p>Full-stack development capabilities across a wide array of languages and frameworks, adaptable to diverse project requirements.</p>
+            <h2>Battery Simulation & Modeling</h2>
+            <p>Developing high-fidelity simulation software for complex systems like aircraft batteries, including detailed electrical and thermal modeling.</p>
+        </div>
+    </div>
+</div>
+<div id="bottom-blurb">
+    <p>At Subspace Systems, we don't just write code; we architect solutions that empower your business to reach new frontiers. Contact us today to discuss how our expertise can drive your next critical project.</p>
+    <button>
+        <a href="{{ '/contact' | relative_url }}">Contact Us &emsp; &neArr;</a>
+    </button>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const tabLinks = document.querySelectorAll('.tab-link');
+        const tabContents = document.querySelectorAll('.tab-content');
+
+        // Function to show a specific tab
+        function showTab(tabId) {
+            // Hide all content sections
+            tabContents.forEach(content => {
+                content.classList.remove('active');
+            });
+
+            // Deactivate all links
+            tabLinks.forEach(link => {
+                link.classList.remove('active');
+            });
+
+            // Show the selected content
+            const selectedContent = document.getElementById(tabId);
+            if (selectedContent) {
+                selectedContent.classList.add('active');
+            }
+
+            // Activate the corresponding link
+            const selectedLink = document.querySelector(`.tab-link[href="#${tabId}"]`);
+            if (selectedLink) {
+                selectedLink.classList.add('active');
+            }
+        }
+
+        // Add click event listeners to links
+        tabLinks.forEach(link => {
+            link.addEventListener('click', (event) => {
+                event.preventDefault(); // Prevent default link behavior (e.g., jumping to #id)
+                const tabId = link.getAttribute('href').substring(1); // Get the ID from href (e.g., "foo" from "#foo")
+                showTab(tabId);
+            });
+        });
+
+        // Set initial active tab (e.g., "foo")
+        // Check if there's a hash in the URL for initial loading
+        const initialTabId = window.location.hash ? window.location.hash.substring(1) : 'architecture-content';
+        showTab(initialTabId);
+    });
+</script>
