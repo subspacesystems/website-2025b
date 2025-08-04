@@ -460,13 +460,7 @@ input[type="checkbox"]:not(.nav-toggle):checked::before {
 }
 
 #part-5 .services-left {
-  flex: 1;
-  padding-right: 2rem;
-}
-
-#part-5 .services-right {
-  flex: 1;
-  padding-left: 2rem;
+  margin-left: 20%;
 }
 
 #part-5 .services-left ul {
@@ -509,6 +503,7 @@ input[type="checkbox"]:not(.nav-toggle):checked::before {
 
 #part-5 .service-content.active {
   display: block;
+  transition: all 0.3s ease-in-out;
 }
 
 #part-5 .service-content p {
@@ -583,6 +578,10 @@ input[type="checkbox"]:not(.nav-toggle):checked::before {
     width: 100%;
     justify-content: center;
     text-align: center;
+  }
+
+  #part-5 .services-left {
+    margin-left: inherit;
   }
 
   #bottom-blurb {
